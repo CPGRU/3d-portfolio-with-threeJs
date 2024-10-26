@@ -25,6 +25,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import research from "./company/research.png";
+import dna from "./company/dna.png";
+import chemistry from "./company/chemistry.png";
+import laboratory from "./company/laboratory.png";
+import coding from "./company/coding.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,6 +61,11 @@ export {
   shopify,
   starbucks,
   tesla,
+  research,
+  dna,
+  chemistry,
+  laboratory,
+  coding,
   carrent,
   jobit,
   tripguide,

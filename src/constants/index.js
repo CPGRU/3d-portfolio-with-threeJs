@@ -19,11 +19,17 @@ import {
     starbucks,
     tesla,
     shopify,
+    research,
+    dna,
+    laboratory,
+    chemistry,
+    coding,
     carrent,
     jobit,
     tripguide,
     threejs,
   } from "../assets";
+
   
   export const navLinks = [
     {
@@ -42,19 +48,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Cancer Researcher",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Biomedical Technologist",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Dog trainer",
       icon: creator,
     },
   ];
@@ -116,55 +122,52 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Research assistant",
+      company_name: "Chang-Gung Memorial Hospital, Lab of Hematology and Oncology",
+      icon: dna,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "August 2010 - May 2012",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Mutational analysis of RUNX1 in Myelodysplastic Syndrome.",
+        "Publication: Transcription Activities of RUNX1 Mutants Predict sAML Transformation in Patients with High Risk De Novo Myelodysplastic Syndrome / Journal: Blood (2011) 118 (21) : 2785."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Biomedical Technologist",
+      company_name: "Cathay General Hospital, Division of Rheumatology and Immunology",
+      icon: chemistry,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "May 2012 - February 2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Analyzing HLA typing/tissue matching in transplantation.",
+        "Researching IL-28 cell signaling with autoimmune diseases.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Wissenschaftliche*r Mitarbeiter*in/Biomedical Technologist",
+      company_name: "Stadtspital Triemli, Institut für Labormedizin",
+      icon: laboratory,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "November 2018 - December 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Analysing FECH enzymatic activity of Erythropoietic Protoporpyria cell model by HPLC and clinical immunological/pathogenic test.",
+        "Wide RNA-Seq of Congenital erythropoietic porphyria (CEP) with Transcriptome analysis.",
+        "Studying protoporphyrin accumulation and gene expression in EPP cell model.",
+        "Publication: Repurposing of glycine transport inhibitors for the treatment of erythropoietic protoporphyria / Journal: Cell Chemical Biology"
+      ],
+    },
+    {
+      title: "Learning JavaScript, TypeScript, HTML, CSS, React, Frontend Design",
+      company_name: "Online",
+      icon: coding,
+      iconBg: "#383E56",
+      date: "2022 - ",
+      points: [
+        "Modern React with Redux (Udemy)/ React Testing Library and Jest (Udemy)",
+        "Javascript (Javascript.info/W3schools/Udemy)",
+        "HTML and CSS (W3schools/Udemy)",
+        "Python (W3schools/Udemy)",
+        "Bioinformatics for beginners (UC San Diego via Coursera)"
       ],
     },
   ];
